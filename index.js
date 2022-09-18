@@ -8,5 +8,11 @@ for(var i = 0; i < arrow.length; i++){
     }
     this.nextElementSibling.classList.toggle("answer");
     this.style.fontWeight = "bold";
+      var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
   })
 }
