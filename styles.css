@@ -52,6 +52,13 @@ h1{
   cursor: default;
 }
 
+.aaa{
+  cursor: default;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
 .desktop{
 position:  absolute;
 top: 50px;
