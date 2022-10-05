@@ -5,6 +5,7 @@ for(var i = 0; i < arrow.length; i++){
     for(var i = 0; i < arrow.length; i++){
       arrow[i].style.fontWeight = "400";
       arrow[i].nextElementSibling.classList.add("answer");
+      arrow[i].nextElementSibling.style.maxHeight = null;
     }
     this.nextElementSibling.classList.toggle("answer");
     this.style.fontWeight = "bold";
